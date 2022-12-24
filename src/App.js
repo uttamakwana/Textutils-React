@@ -58,7 +58,7 @@ function App() {
     }
   };
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/g4g-debate'}>
       <Routes>
         {/* Here all the components will be visible in web page */}
         <Route
