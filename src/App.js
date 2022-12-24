@@ -58,12 +58,12 @@ function App() {
     }
   };
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         {/* Here all the components will be visible in web page */}
         <Route
           exact
-          path="/Textutils-React"
+          path="/"
           element={
             <>
               {/* Creating Navbar in components folder */}
