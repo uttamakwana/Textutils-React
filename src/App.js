@@ -58,7 +58,7 @@ function App() {
     }
   };
   return (
-    <BrowserRouter basename="/Textutils-React">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         {/* Here all the components will be visible in web page */}
         <Route
