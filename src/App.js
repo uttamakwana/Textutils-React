@@ -58,12 +58,12 @@ function App() {
     }
   };
   return (
-    <BrowserRouter basename="/Textutils-react">
+    <BrowserRouter basename="/Textutils-React">
       <Routes>
         {/* Here all the components will be visible in web page */}
         <Route
           exact
-          path="/"
+          path="/Textutils-React"
           element={
             <>
               {/* Creating Navbar in components folder */}
